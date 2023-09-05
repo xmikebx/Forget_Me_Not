@@ -64,7 +64,7 @@ p{
     font-family: 'Pacifico', cursive;
     font-family: 'Indie Flower', cursive; */
     font-family: 'Gochi Hand', cursive;
-    font-size: 26px;
+    font-size: 28px;
     color: #EFBDD5;
     margin-left: 10px;
     margin-bottom: 6px;
@@ -213,6 +213,12 @@ margin: 5px;
     content: "";
     border: 1px solid #35422C;
     align-self: stretch;
+}
+
+@media screen and (min-width: 480px) {
+    #brandlink {font-size: 16px;}
+    #brandhome {font-size: 24px;}
+    #h2 {font-size: 14px;}
 }
 
 
