@@ -215,10 +215,23 @@ margin: 5px;
     align-self: stretch;
 }
 
-@media screen and (min-width: 480px) {
-    #brandlink {font-size: 16px;}
-    #brandhome {font-size: 24px;}
-    #h2 {font-size: 14px;}
+@media screen and (min-width: 320px) {
+    #body {background-color: cornflowerblue;}
+    #brandlink {font-size: 12px;}
+    #brandhome {font-size: 16px;}
+    #h2 {font-size: 12px;}
 }
 
+@media screen and (min-width: 481px) {
+    #body {background-color: coral;}
+    #brandlink {font-size: 12px;}
+    #brandhome {font-size: 16px;}
+    #h2 {font-size: 12px;}
+}
 
+@media (min-width:641px)  {
+    #body {background-color: darkslateblue;}
+    #brandlink {font-size: 12px;}
+    #brandhome {font-size: 16px;}
+    #h2 {font-size: 12px;}
+}
