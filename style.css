@@ -9,11 +9,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /* height: calc(100vh + 60px); */
-    transition: height 1000000s ease;
-    -webkit-transition: height 1000000s ease;
-    -moz-transition: height 1000000s ease;
-    -o-transition: height 1000000s ease;
 }
 
 h1{
@@ -61,7 +56,7 @@ p{
 
  
 #brand_home{
-    background-color: aquamarine;
+/*     background-color: aquamarine; */
     font-family: 'Gochi Hand', cursive;
     font-size: 28px;
     color: #EFBDD5;
@@ -299,7 +294,7 @@ height: 50px;
 margin-bottom: 1%;
 }
 
-@media only screen and (min-device-width: 480px){
+/* @media only screen and (min-device-width: 480px){
     #body {background-color: cornflowerblue;}
     #brandlink {font-size: 12px;}
     #brandhome {font-size: 12px;}
@@ -318,5 +313,5 @@ margin-bottom: 1%;
     #brandlink {font-size: 12px;}
     #brandhome {font-size: 12px;}
     #h2 {font-size: 12px;}
-}
+} */
 
