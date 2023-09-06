@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+body{
+    background-color: #4D594A;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url('bg1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* height: calc(100vh + 60px); */
+    transition: height 1000000s ease;
+    -webkit-transition: height 1000000s ease;
+    -moz-transition: height 1000000s ease;
+    -o-transition: height 1000000s ease;
+}
+
+h1{
+    /* background-color: aquamarine; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 20px; */
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    /* background-color: chocolate; */
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: lighter; */
+    color: #EBEBEB;
+    font-size: 20px;
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    /* max-width: 80%; */
+    justify-content: center;
+    text-align: center;
+}
+
+#header{
+    background-color: #39362D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 2%;
+    /* position: static; */
+}
+
+ 
+#brand_home{
+    background-color: aquamarine;
+    font-family: 'Gochi Hand', cursive;
+    font-size: 28px;
+    color: #EFBDD5;
+    margin-left: 10px;
+    margin-bottom: 6px;
+}
+
+#brand_link{
+    font-family: 'Gochi Hand', cursive;
+    font-size: 20px;
+    color: #EFBDD5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+#brand_link a{
+    text-decoration: none;
+}
+
+#sitenav{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    width: 180px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+#sitenav a{
+    color: white;
+    text-decoration: none;
+}
+
+#image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* flex-basis: 300px; */
+}
+
+#image img{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    /* border-style: solid; */
+    /* border-width: 2px;
+    border-color: #35422C; */
+}
+
+#txtblock{
+    /* background-color: aquamarine; */
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    /* text-align: left; */
+}
+
+#divider_hor{
+    display: flex;
+    flex-direction: row;
+    content: "";
+    border: 1px solid #35422C;
+    align-self: stretch;
+}
+
+#imagerow_container{
+    /* background-color: brown; */
+    display: flex;
+    height: auto;
+    width: fit-content;
+}
+
+
+#imagerow{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-content: space-evenly; */
+    height: auto;
+    gap: 50px;
+    margin-left: -40px;
+
+    /* had lots of issues lining this up. Not ideal but managed to get it looking ok with margin left. 
+    I don't yet understand why what was happening, was happening, but due to time constraints had to use the margin hack */
+}
+
+#imagerow li{
+/* background-color: #FBB6C4; */
+flex-basis: 260px;
+list-style-type: none;
+}
+
+#imagerow li img{
+object-fit: contain;
+max-width: 100%;
+max-height: 533px;
+/* height: auto; */
+/* vertical-align: middle; */
+/* border-style: solid;
+border-width: 2px;
+border-color: #35422C; */
+}
+
+#imgdesc{
+color: white;
+display: flex;
+justify-content: center;
+margin: 5px;
+}
+
+#price{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: -20px;
+}
+
+
+/* #divider_ver{
+    display: flex;
+    flex-direction: column;
+    content: "";
+    border: 1px solid #35422C;
+    align-self: stretch;
+    margin-top: 1%;
+    margin-bottom: 1%;
+} */
+
+#rev_container{
+    /* background-color: cornflowerblue; */
+    display: flex;
+    flex-direction: column;
+    min-width: 50%;
+}
+
+#review{
+    background-color: #35422C;
+    /* display: flex;
+    justify-content: left; */
+    width: auto;
+    height: fit-content;
+    margin: 2%;
+    text-align: left;
+}
+
+#loc_container{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    }
+
+
+#loc_txt{
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    /* align-content: flex-start;
+    align-items: start; */
+}
+
+#loc_image{
+    /* background-color: #EFBDD5; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: 360px;
+}
+
+#loc_image img{
+    object-fit: contain;
+    max-width: 60%;
+    /* height: auto; */
+    /* vertical-align: bottom; */
+    /* border-style: solid; */
+    /* border-width: 2px;
+    border-color: #35422C; */
+}
+
+#links{
+    background-color: #35422C;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30px;
+}
+
+#links a{
+    /* color: white; */
+    text-decoration: none;
+}
+
+#image_credit{
+display: flex;
+justify-content: flex-end;
+font-family: 'Montserrat', sans-serif;
+font-weight: lighter;
+font-size: 10px;
+/* margin: -20px; */
+margin-right: 10px;
+}
+
+#image_credit a{
+    color: white;
+    text-decoration: none;
+}
+
+#whitespace{
+height: 50px;
+}
+
+#footer{
+/* position: static; */
+margin-bottom: 1%;
+}
+
+@media only screen and (min-device-width: 480px){
+    #body {background-color: cornflowerblue;}
+    #brandlink {font-size: 12px;}
+    #brandhome {font-size: 12px;}
+    #h2 {font-size: 12px;}
+}
+
+@media only screen and (min-device-width: 768px){
+    #body {background-color: coral;}
+    #brandlink {font-size: 12px;}
+    #brandhome {font-size: 12px;}
+    #h2 {font-size: 12px;}
+}
+
+@media only screen and (min-device-width: 961px){
+    #body {background-color: forestgreen;}
+    #brandlink {font-size: 12px;}
+    #brandhome {font-size: 12px;}
+    #h2 {font-size: 12px;}
+}
+
