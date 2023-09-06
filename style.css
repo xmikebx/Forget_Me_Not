@@ -214,6 +214,29 @@ margin: 5px;
     border: 1px solid #35422C;
     align-self: stretch;
 }
+
+#image_credit{
+display: flex;
+justify-content: flex-end;
+font-family: 'Montserrat', sans-serif;
+font-weight: lighter;
+font-size: 10px;
+margin-right: 10px;
+}
+
+#image_credit a{
+    color: white;
+    text-decoration: none;
+}
+
+#whitespace{
+height: 100px !important;
+}
+
+#footer{
+margin-bottom: 1%;
+}
+
 @media only screen and (min-width: 481px){
 #body {background-color: cornflowerblue;}
 #brandlink {font-size: 10px;}
