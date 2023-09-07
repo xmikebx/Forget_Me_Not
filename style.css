@@ -97,8 +97,10 @@ p{
     text-decoration: none;
 }
 
-#sitemapicon{
-margin-bottom: 1px;
+#stretchicon{
+    font-size: 3em;
+    color: #EFBDD5;
+    margin-bottom: 12px;
 }
 
 #image{
