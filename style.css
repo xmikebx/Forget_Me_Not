@@ -97,6 +97,10 @@ p{
     text-decoration: none;
 }
 
+#sitemapicon{
+margin-bottom: 1px;
+}
+
 #image{
     display: flex;
     flex-direction: row;
